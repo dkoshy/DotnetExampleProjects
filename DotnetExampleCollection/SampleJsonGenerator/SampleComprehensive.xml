@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mainnode>
+	<emptyvalue/>
+	<text>
+		Some text
+	</text>
+	<nodewithattributes myattribute='thisattribute' anotherattribute='otherattribute'>
+		Some text with attributes and text
+	</nodewithattributes>
+	<differentsubnodes>
+		<onedifferent></onedifferent>
+		<twodifferent></twodifferent>
+		<threedifferent></threedifferent>
+	</differentsubnodes>
+	<repeatedsubnodes>
+		<onerepeated></onerepeated>
+		<twodifferent></twodifferent>
+		<onerepeated></onerepeated>
+	</repeatedsubnodes>
+	<arrays>
+		<arrayofone>
+			value
+		</arrayofone>
+	</arrays>
+	<otherarrays>
+		<valueone/>
+		<valueone>some value</valueone>
+	</otherarrays>
+	<mixedcontent>
+		this is valid <emphasis>mixed</emphasis> content
+	</mixedcontent>
+	<unorderedlistwithchange>
+		<c>b</c>
+		<b>c</b>
+		<a>a</a>
+	</unorderedlistwithchange>
+	<unorderedarray>
+		<onenode>b</onenode>
+		<onenode>c</onenode>
+		<onenode>a</onenode>
+	</unorderedarray>
+</mainnode>

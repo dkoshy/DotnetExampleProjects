@@ -1,0 +1,27 @@
+﻿<?xml version='1.0'?>
+<authors xmlns:json='http://james.newtonking.com/projects/json'>
+	<author>
+		<name>Peter Shaw</name>
+		<course json:Array='true'>HTML 5 Layouts</course>
+		<totalcourses>1</totalcourses>
+		<currentlyauthoring>false</currentlyauthoring>
+	</author>
+	<author>
+		<name>Xavier Morera</name>
+		<course>Solr</course>
+		<course>dotTrace</course>
+		<course>JIRA</course>
+		<totalcourses>3</totalcourses>
+		<currentlyauthoring>true</currentlyauthoring>
+	</author>
+	<author>
+		<name>Jason Alba</name>
+		<courses>
+			<course>Management 101</course>
+			<course>Customer Service</course>
+			<course>Phone Skills</course>
+		</courses>
+		<totalcourses>17</totalcourses>
+		<currentlyauthoring>true</currentlyauthoring>
+	</author>
+</authors>
