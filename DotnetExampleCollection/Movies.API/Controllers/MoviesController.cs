@@ -27,6 +27,7 @@ namespace Movies.API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Models.Movie>>> GetMovies()
         {
+            //await Task.Delay(30000);
             var movieEntities = await _moviesRepository.GetMoviesAsync();
             return Ok(_mapper.Map<IEnumerable<Models.Movie>>(movieEntities));
         }

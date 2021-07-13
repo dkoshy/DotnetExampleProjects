@@ -30,10 +30,12 @@ namespace Movies.Client.Models
     
         [Newtonsoft.Json.JsonProperty("director", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string Director { get; set; }
-    
-    
+
+        [Newtonsoft.Json.JsonProperty("directorId", Required = Newtonsoft.Json.Required.DisallowNull, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public System.Guid DirectorId { get; set; }
+
     }
-    
+
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "10.4.4.0 (Newtonsoft.Json v12.0.0.0)")]
     public partial class MovieForCreation 
     {
